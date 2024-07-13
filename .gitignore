@@ -1,0 +1,6 @@
+# IDE items
+.vscode/
+
+# Project items
+obj/
+bin/
