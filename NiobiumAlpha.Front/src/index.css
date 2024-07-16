@@ -1,0 +1,8 @@
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f7f7;
+}
+
+body {
+    background: var(--backgroud);
+}
