@@ -1,9 +1,11 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiobiumAlpha.Api", "NiobiumAlpha.Api\NiobiumAlpha.Api.csproj", "{1D475583-67F0-4126-99B4-8DE74AE4C9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiobiumAlpha.Tests", "NiobiumAlpha.Tests\NiobiumAlpha.Tests.csproj", "{F1F8DC3C-BB0A-49BC-80D3-ACD95DCD01A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
