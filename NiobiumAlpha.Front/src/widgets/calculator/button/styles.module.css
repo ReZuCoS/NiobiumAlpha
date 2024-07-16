@@ -1,0 +1,17 @@
+.Button {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover:not(:disabled) {
+  cursor: pointer;
+  background-color: #d3d3d3;
+}
+
+.Button:active:not(:disabled) {
+  background-color: #b3b3b3;
+}

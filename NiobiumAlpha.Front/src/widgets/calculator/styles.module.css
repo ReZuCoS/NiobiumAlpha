@@ -1,0 +1,67 @@
+.Calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--bg-secondary);
+}
+
+.Display {
+  height: 60px;
+  margin-bottom: 10px;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  padding: 0 20px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.TabButtonContainer {
+  width: 100%;
+  display: flex;
+}
+
+.TabButton {
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  padding: 8px 0px;
+  border-radius: 0;
+  border-width: 0px;
+  background: var(#00000005);
+
+  border-style: solid;
+  border-color: #757575;
+  border-width: 1px 1px 0px 1px;
+}
+
+.TabButton:hover:not(.TabButtonActive) {
+  cursor: pointer;
+}
+
+.TabButtonActive {
+  background-color: transparent;
+}
+
+.ButtonsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.ErrorsContainer {
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.ErrorMessage {
+  font-size: 14px;
+  color: #c32323;
+  margin-bottom: 2px;
+}
