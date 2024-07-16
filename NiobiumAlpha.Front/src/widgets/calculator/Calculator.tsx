@@ -114,6 +114,7 @@ const Calculator: React.FC = () => {
             <input
                 type="text"
                 value={input}
+                disabled={loading}
                 onChange={handleChange}
                 className={styles.Display}
             />
